@@ -1,0 +1,113 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+#part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#nav h3{
+    padding: 5px 20px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    font-weight: 500;
+}
+#nav i{
+    padding: 5px 10px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+#btn2{
+    background-color: orangered;
+    color: white;
+    /* background-color: rgb(121, 79, 63); */
+    border:none; 
+}
+#btn1{
+    background-color:white;
+    border: 1.5px solid black;
+    /* background-color: rgb(121, 79, 63); */
+    /* border:none;  */
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    /* background-color: white; */
+}
+
+/* #main>h1  --> means that main ke direct andar jo h1 hai */
+#main h1{
+    /* position:absolute; */
+    /* height: 100%; */
+    text-transform: uppercase;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 15ch;
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height:45%;
+    width: 20%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0in;
+    border-radius: 15px;
+    
+    
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-12deg);
+}
+#img5{
+    transform: translate(-50%, -50%) rotate(-5deg);
+}
+#img4{
+    transform: translate(-50%, -50%) rotate(1deg);
+}
+
+
